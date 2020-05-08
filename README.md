@@ -4,7 +4,7 @@
 
 ## Introduction
 
-We have a weird named guy called Root. He's trying to create a website with all his pokemons and has got to point where the basic structure of the page is ready! As a developer with CSS and responsive web design skills your role is to help him out and make his page repsponsive.  
+We have a weird named guy called Root. He's trying to create a website with all his pokemons and has got to a point where the basic structure of the page is ready! As a developer with CSS and responsive web design skills your role is to help him out and make his page responsive.  
 
 ## Requirements
 
