@@ -21,6 +21,7 @@ header {
   align-items: center;
   height: 40px;
   width: 100%;
+  margin-bottom: 40px;
 }
 
 .hamburger {
@@ -28,11 +29,22 @@ header {
   font-weight: 900;
   font-size: 1.3rem;
   margin: 4%;
+  visibility: visible;
 }
 
 .menu {
   visibility: hidden;
   order: -1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  color: white;
+  margin-right: 10px;
+}
+
+.menu li {
+  margin-right: 10px;
 }
 
 .container {
@@ -49,6 +61,8 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0 auto;
+  margin-bottom: 40px;
 }
 
 .card {
@@ -104,24 +118,51 @@ header {
 }
 
 footer {
-  /*add styles for the footer here*/
+  
 }
 
 /* Tablet */
-@media (min-width: 200px) and (max-width: 850px) {
+@media (min-width: 700px) {
   #pokedex {
     flex-direction: row;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    width: 100%;
+    max-width: 600px;
   }
+
+  .hamburger {
+    visibility: hidden;
+  }
+  
+  .menu {
+    visibility: visible;
+    order: 1;
+  }
+
 }
 
 
 /* Desktop */
-@media (min-width: 850px) {
-  #pokemon {
-    background-color: black;
+@media (min-width: 1450px) {
+  #pokedex {
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1600px;
   }
+
+  .hamburger {
+    visibility: hidden;
+  }
+  
+  .menu {
+    visibility: visible;
+    order: 1;
+  }
+  
 }
 
