@@ -1,0 +1,68 @@
+body {
+  font-family: rubik;
+}
+
+.navbar {
+  /*add styles for the navbar here*/
+}
+
+.hamburger {
+  /*add styles for the hamburger here*/  
+}
+
+.container {
+  /*add styles for the container here*/
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 34px;
+}
+
+#pokedex {
+  /*add styles for pokedex here*/
+}
+
+.card {
+  padding: 5px;
+  background-color: #fff;
+  color: #222;
+  margin:10px;
+}
+
+.card-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 0;
+}
+.card-subtitle {
+  margin-top: 5px;
+  font-weight: lighter;
+}
+
+.card-image {
+  height: 180px;
+}
+
+.menu {
+  /*add styles for the menu here*/
+}
+
+
+header {
+  /*add styles for the header here*/
+}
+
+.headerImg {
+  /*add styles for the header image here*/
+}
+
+.social {
+  /*add styles for the social icons here*/
+}
+
+footer {
+  /*add styles for the footer here*/
+}
+
