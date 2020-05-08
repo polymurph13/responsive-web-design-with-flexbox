@@ -1,13 +1,38 @@
 body {
   font-family: rubik;
+  background-color: #ef5350;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 250px;
+  margin: 20px auto;
+}
+
+.headerImg {
+  width: 100%;
 }
 
 .navbar {
-  /*add styles for the navbar here*/
+  background-color:	#386bbb;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 40px;
+  width: 100%;
 }
 
 .hamburger {
-  /*add styles for the hamburger here*/  
+  color: white;
+  font-weight: 900;
+  font-size: 1.3rem;
+  margin: 4%;
+}
+
+.menu {
+  visibility: hidden;
+  order: -1;
 }
 
 .container {
@@ -21,7 +46,9 @@ h1 {
 }
 
 #pokedex {
-  /*add styles for pokedex here*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .card {
@@ -29,20 +56,27 @@ h1 {
   background-color: #fff;
   color: #222;
   margin:10px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
 .card-title {
   font-size: 32px;
   font-weight: bold;
-  margin-top: 0;
+  margin: 0px;
 }
 .card-subtitle {
-  margin-top: 5px;
+  margin-top: 6px;
   font-weight: lighter;
+  color: #757575;
 }
 
 .card-image {
   height: 180px;
+  margin: auto;
 }
 
 .menu {
@@ -59,10 +93,35 @@ header {
 }
 
 .social {
-  /*add styles for the social icons here*/
+  color: white;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+  margin: 0 auto;
+  margin-bottom: 10px;
 }
 
 footer {
   /*add styles for the footer here*/
+}
+
+/* Tablet */
+@media (min-width: 200px) and (max-width: 850px) {
+  #pokedex {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+
+/* Desktop */
+@media (min-width: 850px) {
+  #pokemon {
+    background-color: black;
+  }
 }
 
