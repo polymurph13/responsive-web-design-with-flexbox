@@ -43,13 +43,21 @@ Edit only the style.css file to complete this assignment. Do not change anything
 
 ### This is how the cell phone view must look like 
 
+#### At the top 
+
 ![](https://i.imgur.com/YsGcXA7.png)
+
+#### At the bottom
 
 ![](https://i.imgur.com/Pvzy88d.png)
 
 ### This is how the tablet view must look like 
 
+#### At the top 
+
 ![](https://i.imgur.com/hhyHCG1.png)
+
+#### At the bottom
 
 ![](https://i.imgur.com/QpR9MNE.png)
 
