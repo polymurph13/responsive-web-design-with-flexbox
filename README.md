@@ -1,6 +1,6 @@
 # Practice-Assignment | Root's Pokedex
 
-![](https://media1.giphy.com/media/vsyKKf1t22nmw/giphy.gif?cid=ecf05e475d1f4ffad259dc7d82015d1d4462ba3f650f30e9&rid=giphy.gif)
+![](https://media2.giphy.com/media/xuXzcHMkuwvf2/giphy.gif?cid=ecf05e476cc863607410ab18748f6555abbc227cfc033bfd&rid=giphy.gif)
 
 ## Introduction
 
